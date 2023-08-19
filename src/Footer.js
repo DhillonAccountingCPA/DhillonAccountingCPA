@@ -7,10 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p> 
-        <i className="fa fa-copyright" aria-hidden="true"></i> {year} Dhillon Accounting CPA Inc. All Rights Reserved. Website built by Harnoor Dhillon.
-        <a href="https://www.linkedin.com/in/harnoor-dhillon-447aa818a/" target="_blank" rel="noopener noreferrer">
-          <i className="fa fa-linkedin-square footer-linkedin" aria-hidden="true"></i>
-        </a>
+        <i className="fa fa-copyright" aria-hidden="true"></i> {year} Dhillon Accounting CPA Inc. All Rights Reserved. Website built by Fossil Designs.
       </p>
     </footer>
   );

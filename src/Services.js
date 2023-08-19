@@ -10,7 +10,7 @@ const Services = () => {
         <ServiceBox icon="money" title="Accounting" description={["Compiled Financial Information", "Financial Projections and Budgeting", "General Ledger review"]} />
         <ServiceBox icon="calculator" title="Tax Services" description={["Personal tax returns", "Self-employed tax returns", "Corporate tax returns"]} />
         <ServiceBox icon="book" title="Bookkeeping" description={["Monthly, Quarterly, or Annual Bookkeeping", "Payroll, T4’s & ROE", "GST, PST & WCB Reporting"]} />
-        <ServiceBox icon="handshake-o" title="Advisory & Compliance" description={["CRA audit assistance", "Service Canada - TFWP audit assistanc", "Business Planning & setup"]} />
+        <ServiceBox icon="handshake-o" title="Advisory & Compliance" description={["CRA audit assistance", "Service Canada - TFWP audit assistance", "Business Planning & setup"]} />
       </div>
     </Element>
   );
