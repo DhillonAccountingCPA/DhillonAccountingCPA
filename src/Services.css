@@ -6,6 +6,7 @@
     height: 100vh;
     background: url(./images/plant.jpg) no-repeat center center;
     background-size: cover;
+    overflow: auto; /* Prevent content from overflowing */
 }
   
 .services h1 {
