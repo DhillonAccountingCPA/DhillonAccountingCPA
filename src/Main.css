@@ -9,9 +9,9 @@
     padding-left: 10%; /* gives some space from left */
 }
 /* Media query for mobile devices */
-@media (max-width: 1300px) {
+@media (max-width: 13000px) {
     .main {
-        padding-top: 50%; /* Reduced top padding for mobile */
+        padding-top: 500px; /* Reduced top padding for mobile */
         padding-left: 5%; /* Reduced left padding for mobile */
         justify-content: center; /* Center content on smaller screens */
         align-items: flex-start; /* Align items to the start for better readability */
