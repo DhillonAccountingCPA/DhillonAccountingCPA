@@ -80,7 +80,7 @@
     transform: translateY(-90px);
 }
 /* Media query for mobile devices */
-@media (max-width: 13000px) {
+@media (max-width: 1300px) {
     .services-grid {
         grid-template-columns: 1fr; /* Stack grid items vertically on mobile */
         width: 50%; /* Increase width for mobile layout */
@@ -95,7 +95,7 @@
     .service-box:hover .service-description {
         font-size: 0.8rem; /* Smaller font size for hover text */
         opacity: 1; /* Make hover text visible */
-        transform: translateY(0); /* Reset transform */
+        transform: translateY(25px); /* Reset transform */
     }
 
     .service-title,
