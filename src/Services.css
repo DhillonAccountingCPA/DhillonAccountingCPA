@@ -80,7 +80,7 @@
     transform: translateY(-90px);
 }
 /* Media query for mobile devices */
-@media (max-width: 1300px) {
+@media (max-width: 13000px) {
     .services-grid {
         grid-template-columns: 1fr; /* Stack grid items vertically on mobile */
         width: 50%; /* Increase width for mobile layout */
@@ -88,12 +88,14 @@
     }
 
     .service-box {
-        height: 310px; /* Increased height for larger boxes */
+        height: 110px; /* Increased height for larger boxes */
         padding: 15px; /* Adjust padding for larger boxes */
     }
 
     .service-box:hover .service-description {
         font-size: 0.8rem; /* Smaller font size for hover text */
+        opacity: 1; /* Make hover text visible */
+        transform: translateY(0); /* Reset transform */
     }
 
     .service-title,
@@ -108,6 +110,6 @@
     .service-box:hover .service-title,
     .service-box:hover .service-icon {
         transform: none;
-        opacity: 1; /* Keep elements visible */
+        opacity: 0; /* Keep elements visible */
     }
 }
