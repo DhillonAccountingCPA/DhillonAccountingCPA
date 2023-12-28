@@ -6,10 +6,12 @@
     height: 70vh;
     background-size: cover;
     padding: 2% 10% 0 10%;
+    overflow: hidden; /* Prevent content from overflowing */
 }
 
 .about-left {
     flex-basis: 30%;
+    max-height: 100%;
 }
 
 .about-left h1 {
@@ -28,6 +30,8 @@
 .about-right {
     flex-basis: 45%;
     padding-right: 1rem;
+    max-height: 100%; /* Ensure it doesn't exceed the parent height */
+    overflow: auto; /* Add scroll on overflow */
 }
 
 .about-right p {
