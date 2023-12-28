@@ -85,40 +85,44 @@ li a:hover {
     text-decoration: underline 2px;
 }
 /* Mobile devices responsiveness */
-@media (max-width: 1300px) { /* You can adjust this value based on your requirements */
-
+@media (max-width: 1300px) {
     nav {
-        padding: 1rem 1rem; /* Reduced padding for mobile */
+        position: relative; /* Navbar scrolls with the page */
+        padding: 0.5rem 1rem; /* Reduced padding for mobile */
+        align-items: center; /* Align items centrally for a less tall navbar */
     }
 
     .navbar-content {
         flex-direction: column; /* Stack logo and navigation vertically */
-        align-items: flex-start; /* Align items to the start */
+        align-items: center; /* Center-align items for a tidier appearance */
     }
 
     .logo {
-        width: 150px;
-        height: 50px; 
-        margin-bottom: 1rem; /* Gap between logo and navigation */
+        width: 120px; /* Further reduced logo width */
+        height: 40px; /* Reduced logo height */
+        margin-bottom: 0.5rem; /* Reduced gap between logo and navigation */
     }
 
     ul {
-        gap: 1rem; /* Reduced gap for mobile */
+        width: 100%; /* Full width to accommodate vertical layout */
+        gap: 0.5rem; /* Reduced gap for mobile */
         flex-direction: column; /* Links listed vertically */
+        padding: 0; /* Remove padding, if any */
     }
 
     li a {
-        font-size: 18px; /* Smaller font size */
+        font-size: 16px; /* Smaller font size for links */
     }
 
     .top-boxes {
-        margin-top: 1rem; /* Gap between navigation and top-boxes */
-        gap: 1rem; /* Reduced gap for mobile */
+        margin-top: 0.5rem; /* Reduced gap between navigation and top-boxes */
+        gap: 0.5rem; /* Reduced gap for mobile */
+        flex-direction: column; /* Stack top boxes vertically */
     }
 
     .top-box {
-        width: 150px; /* Reduced width */
-        height: 40px; /* Reduced height */
+        width: 100%; /* Full width for a more mobile-friendly layout */
+        height: 35px; /* Slightly reduced height */
         font-size: 14px; /* Smaller font size */
     }
 }
