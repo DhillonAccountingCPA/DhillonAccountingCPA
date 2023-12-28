@@ -15,6 +15,5 @@
         padding-left: 5%; /* Reduced left padding for mobile */
         justify-content: center; /* Center content on smaller screens */
         align-items: flex-start; /* Align items to the start for better readability */
-        background-size: contain; /* Adjust background size for better fit */
     }
 }
