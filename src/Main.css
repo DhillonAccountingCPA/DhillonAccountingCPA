@@ -11,7 +11,7 @@
 /* Media query for mobile devices */
 @media (max-width: 13000px) {
     .main {
-        padding-top: 500px; /* Reduced top padding for mobile */
+        padding-top: -50px; /* Reduced top padding for mobile */
         padding-left: 5%; /* Reduced left padding for mobile */
         justify-content: center; /* Center content on smaller screens */
         align-items: flex-start; /* Align items to the start for better readability */
