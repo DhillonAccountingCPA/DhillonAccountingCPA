@@ -19,7 +19,7 @@
     transform: scale(1.2); /* adjust as needed */
   }
   /* Media query for mobile devices */
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
   .footer {
       padding: 0.5rem; /* Reduced padding for a more compact footer */
   }

@@ -80,7 +80,7 @@
     transform: translateY(-90px);
 }
 /* Media query for mobile devices */
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
     .services-grid {
         grid-template-columns: 1fr; /* Stack grid items vertically on mobile */
         width: 70%; /* Increase width for mobile layout */

@@ -9,7 +9,7 @@
     padding-left: 10%; /* gives some space from left */
 }
 /* Media query for mobile devices */
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
     .main {
         padding-top: 60px; /* Reduced top padding for mobile */
         padding-left: 5%; /* Reduced left padding for mobile */

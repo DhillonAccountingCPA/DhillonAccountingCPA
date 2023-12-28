@@ -46,7 +46,7 @@
     background-color: #218838; /* darker green for hover effect */
 }
 /* Media query for mobile devices */
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
     .content-box {
         margin: 1rem auto; /* Adjusted margin for consistent spacing */
         padding: 2rem; /* Smaller padding for compact layout */

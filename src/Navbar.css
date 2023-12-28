@@ -85,7 +85,7 @@ li a:hover {
     text-decoration: underline 2px;
 }
 /* Mobile devices responsiveness */
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
     nav {
         position: relative; /* Navbar scrolls with the page */
         padding: 0.5rem 1rem; /* Reduced padding for mobile */
