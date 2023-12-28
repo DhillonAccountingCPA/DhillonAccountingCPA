@@ -45,3 +45,30 @@
 .start-button:hover {
     background-color: #218838; /* darker green for hover effect */
 }
+/* Media query for mobile devices */
+@media (max-width: 1300px) {
+    .content-box {
+        margin-left: 1rem; /* Reduced left margin for smaller screens */
+        padding: 2rem; /* Smaller padding for compact layout */
+        max-width: 100%; /* Full width to utilize screen space */
+    }
+
+    .content-heading {
+        font-size: 2rem; /* Smaller font size for heading */
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+  
+    .content-text {
+        font-size: 1rem; /* Smaller font size for text */
+    }
+
+    .offer {
+        font-size: 1rem; /* Smaller font size for offer text */
+    }
+
+    .start-button {
+        font-size: 0.9rem; /* Slightly smaller font size for button */
+        padding: 8px 16px; /* Adjusted padding for button */
+    }
+}

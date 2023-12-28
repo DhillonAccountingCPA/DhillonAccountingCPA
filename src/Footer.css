@@ -18,4 +18,18 @@
   .footer-linkedin:hover {
     transform: scale(1.2); /* adjust as needed */
   }
-  
+  /* Media query for mobile devices */
+@media (max-width: 1300px) {
+  .footer {
+      padding: 0.5rem; /* Reduced padding for a more compact footer */
+  }
+
+  .footer-linkedin {
+      font-size: 5rem; /* Significantly reduced font size */
+      margin-left: 0.2rem; /* Adjusted margin */
+  }
+
+  .footer-linkedin:hover {
+      transform: scale(1.1); /* Slightly reduced scale effect */
+  }
+}

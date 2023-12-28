@@ -79,3 +79,35 @@
     opacity: 0;
     transform: translateY(-90px);
 }
+/* Media query for mobile devices */
+@media (max-width: 1300px) {
+    .services-grid {
+        grid-template-columns: 1fr; /* Stack grid items vertically on mobile */
+        width: 50%; /* Increase width for mobile layout */
+        gap: 10px; /* Reduced gap for a more compact layout */
+    }
+
+    .service-box {
+        height: 310px; /* Increased height for larger boxes */
+        padding: 15px; /* Adjust padding for larger boxes */
+    }
+
+    .service-box:hover .service-description {
+        font-size: 0.8rem; /* Smaller font size for hover text */
+    }
+
+    .service-title,
+    .service-icon {
+        font-size: 1rem; /* Smaller font size for titles and icons */
+    }
+
+    /* Optional: Adjust hover effects for better mobile usability */
+    .service-box:hover {
+        transform: none;
+    }
+    .service-box:hover .service-title,
+    .service-box:hover .service-icon {
+        transform: none;
+        opacity: 1; /* Keep elements visible */
+    }
+}
