@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DhillonAccountingCPA/static/css/main.f0255305.css",
-    "main.js": "/DhillonAccountingCPA/static/js/main.39e63878.js",
+    "main.js": "/DhillonAccountingCPA/static/js/main.40443b4e.js",
     "static/js/787.e7efb47e.chunk.js": "/DhillonAccountingCPA/static/js/787.e7efb47e.chunk.js",
     "static/media/about.jpg": "/DhillonAccountingCPA/static/media/about.1406b28103b1ee69bca9.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/DhillonAccountingCPA/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -15,11 +15,11 @@
     "static/media/cpa.jpeg": "/DhillonAccountingCPA/static/media/cpa.812d4b10b34a5b407612.jpeg",
     "index.html": "/DhillonAccountingCPA/index.html",
     "main.f0255305.css.map": "/DhillonAccountingCPA/static/css/main.f0255305.css.map",
-    "main.39e63878.js.map": "/DhillonAccountingCPA/static/js/main.39e63878.js.map",
+    "main.40443b4e.js.map": "/DhillonAccountingCPA/static/js/main.40443b4e.js.map",
     "787.e7efb47e.chunk.js.map": "/DhillonAccountingCPA/static/js/787.e7efb47e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0255305.css",
-    "static/js/main.39e63878.js"
+    "static/js/main.40443b4e.js"
   ]
 }
