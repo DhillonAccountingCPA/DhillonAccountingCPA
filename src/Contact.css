@@ -64,3 +64,27 @@
     height: auto;
     z-index: 1;
 }
+
+/* Mobile devices responsiveness */
+@media (max-width: 1300px) {
+    .contact-container {
+        flex-direction: column;
+        margin: 2rem 1rem;
+    }
+
+    .contact-form-container,
+    .contact-info {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .contact-form button {
+        padding: 1rem 4rem; /* Larger button for easier touch */
+    }
+
+    .contact-image {
+        width: 100%; /* Full width of container */
+        height: auto; /* Maintain aspect ratio */
+        position: static; /* Regular flow in document */
+    }
+}

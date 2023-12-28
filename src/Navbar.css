@@ -85,7 +85,7 @@ li a:hover {
     text-decoration: underline 2px;
 }
 /* Mobile devices responsiveness */
-@media (max-width: 768px) { /* You can adjust this value based on your requirements */
+@media (max-width: 1300px) { /* You can adjust this value based on your requirements */
 
     nav {
         padding: 1rem 1rem; /* Reduced padding for mobile */
